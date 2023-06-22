@@ -22,5 +22,11 @@ pipeline {
                 // Add your deployment commands here
             }
         }
+
+        stage('Dev') {
+            steps {
+                sh 'echo "Dev ..."'
+            }
+        }
     }
 }
